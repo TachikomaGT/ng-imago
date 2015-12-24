@@ -363,7 +363,7 @@
 
                 $rootScope.$broadcast( EVENT_IMG_LOAD_REQUEST, {
                     type: 'class',
-                    class: className,
+                    'class': className,
                     index: 0
                 } );
             };
