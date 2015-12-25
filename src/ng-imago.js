@@ -730,7 +730,7 @@
                                     canQueue = !angular.isUndefined( $attrs[ attrName ] ) && $attrs[ attrName ] === data.value;
                                     break;
                                 case 'class':
-                                    canQueue = $element.hasClass( data.class );
+                                    canQueue = $element.hasClass( data['class'] );
                                     break;
                                 case 'id':
                                     canQueue = $element.attr( 'id' ) === data.id;
